@@ -1,4 +1,4 @@
-# OiPer
+# OiPer (Not released yet)
 
 OiPer is a privacy-first voice-to-text desktop app. Hold a global hotkey to record, release to transcribe, and the result is injected into the active app. Optional text cleanup can run locally or via an online provider.
 
