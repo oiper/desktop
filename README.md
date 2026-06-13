@@ -7,7 +7,7 @@ OiPer is a privacy-first voice-to-text desktop app. Hold a global hotkey to reco
 - Download the latest release from the GitHub Releases page for this repository:
   https://github.com/oiper/desktop/releases
 - Install the package for your OS.
-- Availability: Windows and Linux are supported now. macOS support is coming soon.
+- Availability: Only Windows is supported now. macOS support is coming soon.
 - On first launch, allow microphone access when prompted.
 
 ## Quick start
