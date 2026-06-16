@@ -43,6 +43,10 @@ xattr -rd com.apple.quarantine /Applications/OiPer.app
 
 We are working on signing the app with Apple, after which this step will no longer be needed.
 
+### macOS: Permissions not working after an update
+
+After updating the app, you may need to grant permissions again from scratch. Even if the app already appears as allowed in the system permissions list (for example, Microphone or Accessibility), it may not actually work. In that case, remove the existing entry and add it again.
+
 ## Help and feedback
 
 - Use GitHub Issues to report bugs and request features:
