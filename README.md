@@ -31,6 +31,18 @@ OiPer is a privacy-first voice-to-text desktop app. Hold a global hotkey to reco
 - Online optimization is optional and requires your API key.
 - Activity logs and audio stay on-device.
 
+## Troubleshooting
+
+### macOS: "OiPer is damaged" or app won't open
+
+During our development phase, before the official release, the app is not yet signed with Apple. If macOS blocks the app or reports it as damaged, run the following command in Terminal to remove the quarantine attribute:
+
+```sh
+xattr -rd com.apple.quarantine /Applications/OiPer.app
+```
+
+We are working on signing the app with Apple, after which this step will no longer be needed.
+
 ## Help and feedback
 
 - Use GitHub Issues to report bugs and request features:
